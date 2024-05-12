@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\DB;
 class ReservationController extends Controller
 {
 
-    // Méthode pour géocoder une adresse et obtenir ses coordonnées géographiques
     private function geocodeAddress($address)
     {
         // URL de l'API de géocodage de OpenStreetMap
